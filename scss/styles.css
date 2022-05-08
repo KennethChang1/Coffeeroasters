@@ -1,0 +1,409 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  padding: 32px 1.5em;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+h4 {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+h5 {
+  color: #83888F;
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 80px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.index-h2 {
+  background: -webkit-gradient(linear, left bottom, left top, from(white), to(#83888f));
+  background: linear-gradient(0deg, white 0%, #83888f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+  color: #83888F;
+}
+
+.section {
+  text-align: center;
+}
+
+.section-collection {
+  width: 282px;
+  margin: auto;
+}
+
+.section-collection > div {
+  margin-bottom: 48px;
+}
+
+.section--promo {
+  background-color: #2C343E;
+  color: #FEFCF7;
+  padding: 64px 24px 0;
+  height: 902px;
+  border-radius: 10px;
+  margin-bottom: 600px;
+}
+
+.section--instruction {
+  margin-bottom: 30px;
+}
+
+.section__card {
+  margin-bottom: 56px;
+}
+
+.section__title {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.section__number-logo {
+  font-family: 'Fraunces', serif;
+  font-size: 72px;
+  color: #FDD6BA;
+  margin-bottom: 24px;
+}
+
+.nav {
+  margin-bottom: 40px;
+}
+
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-links {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.nav-text {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link {
+  position: absolute;
+  padding-top: 80px;
+  display: none;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(254, 252, 247, 0.504981)), color-stop(55.94%, #ffffff));
+  background: linear-gradient(360deg, rgba(254, 252, 247, 0.504981) 0%, #ffffff 55.94%);
+  height: 100vh;
+}
+
+.logo {
+  width: 163px;
+}
+
+.show {
+  display: block;
+}
+
+.title_font {
+  font-family: 'Fraunces', serif;
+}
+
+.sub_text {
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.sub_text-header {
+  color: #FEFCF7;
+  opacity: 80%;
+  margin-bottom: 39px;
+}
+
+.sub_text-collection {
+  color: #333D4B;
+}
+
+.sub_text--promo {
+  margin-bottom: 64px;
+}
+
+.header-container {
+  background-image: url("../assets/home/mobile/image-hero-coffeepress.jpg");
+  color: white;
+  border-radius: 10px;
+  padding: 100px 24px;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #0E8784;
+  padding: 15px 31px;
+  border-radius: 6px;
+}
+
+.coffee-logo {
+  width: 200px;
+  margin-bottom: 24px;
+}
+
+.card {
+  background-color: #0E8784;
+  padding: 72px 12px 51px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.card__sub {
+  width: 212px;
+  margin: auto;
+}
+
+.card__logo {
+  margin-bottom: 56px;
+}
+
+.card-coffee {
+  margin-bottom: 48px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #2C343E;
+  padding: 54px 0;
+}
+
+.footer__links {
+  font-family: 'Barlow', sans-serif;
+  color: #83888F;
+}
+
+.footer__link {
+  margin-top: 24px;
+}
+
+.footer__sm-container {
+  margin-top: 49px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-container--about-us {
+  background-image: url("../assets/about/mobile/image-hero-whitecup.jpg");
+  background-size: cover;
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.image--commitment {
+  margin-bottom: 48px;
+}
+
+.image--about-coffee {
+  position: relative;
+  top: -60px;
+}
+
+.about-h2 {
+  margin-bottom: 30px;
+}
+
+.section--quality {
+  padding: 0 24px 40px;
+  background-color: #2C343E;
+  color: #FEFCF7;
+  border-radius: 8px;
+  margin-bottom: 100px;
+}
+
+.section--commitment {
+  margin-bottom: 150px;
+}
+
+.section__title--quality {
+  font-size: 28px;
+}
+
+.section__title--hq {
+  color: #83888F;
+  margin-bottom: 72px;
+}
+
+.section__sub--quality {
+  opacity: 80%;
+}
+
+.country {
+  font-size: 28px;
+  margin-bottom: 22px;
+}
+
+.country-container {
+  margin-bottom: 80px;
+}
+
+.country-icon {
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    padding: 80px;
+  }
+  header {
+    text-align: left;
+    margin-bottom: 200px;
+  }
+  h1 {
+    font-size: 72px;
+    width: 493px;
+  }
+  h2 {
+    position: absolute;
+    font-size: 180px;
+    z-index: -1;
+    opacity: 0.5;
+    top: -130px;
+  }
+  .header-container {
+    background-image: url("../assets/home/desktop/image-hero-coffeepress.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 85px;
+    padding-bottom: 150px;
+  }
+  .logo {
+    width: 236px;
+  }
+  .sub_text-header {
+    width: 445px;
+  }
+  .hamburger {
+    display: none;
+  }
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nav-link {
+    all: unset;
+  }
+  .nav-links {
+    font-family: 'Barlow', sans-serif;
+    display: inline;
+    font-size: 12px;
+    font-weight: 700;
+    color: #83888F;
+    margin-right: 33px;
+    letter-spacing: 0.92px;
+  }
+  .section-collection {
+    position: relative;
+    width: 1111px;
+  }
+  .section__collection--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .sub_text-collection {
+    width: 255px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
